@@ -1,0 +1,17 @@
+# Framework de Deep Learning y Visión por Computadora
+torch
+torchvision
+ultralytics
+opencv-python
+
+# Dependencias para el modelo CLIP de OpenAI
+ftfy
+regex
+tqdm
+
+# Librerías Auxiliares
+numpy
+Pillow
+
+# Interfaz de Usuario Web (opcional pero recomendado)
+streamlit

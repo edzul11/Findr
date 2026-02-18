@@ -1,0 +1,24 @@
+# Entornos virtuales
+clip/
+venv/
+env/
+.env
+
+# Byte-compiled / optimizados / DLLs
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribución / empaquetado
+dist/
+build/
+*.egg-info/
+
+# Logs y bases de datos
+*.log
+*.sqlite3
+
+# IDEs y editores
+.idea/
+.vscode/
+*.swp
