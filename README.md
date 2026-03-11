@@ -22,8 +22,8 @@ Este proyecto combina la potencia de **YOLO** para la detección y rastreo de pe
 
 1.  Clona este repositorio:
     ```bash
-    git clone https://github.com/tu-usuario/nombre-repo.git
-    cd nombre-repo
+    git clone https://github.com/edzul11/Findr.git
+    cd Findr
     ```
 
 2.  Crea y activa un entorno virtual (opcional pero recomendado):
