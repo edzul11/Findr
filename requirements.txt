@@ -4,6 +4,10 @@ torchvision
 ultralytics
 opencv-python
 
+# Búsqueda Semántica y Modelos
+sentence-transformers
+faiss-cpu
+
 # Dependencias para el modelo CLIP de OpenAI
 ftfy
 regex
@@ -13,5 +17,5 @@ tqdm
 numpy
 Pillow
 
-# Interfaz de Usuario Web (opcional pero recomendado)
+# Interfaz de Usuario Web
 streamlit

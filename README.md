@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# Findr
-Este proyecto combina la potencia de **YOLO** para la detección y rastreo de personas en tiempo real, junto con **OpenAI CLIP** y **FAISS** para permitir la búsqueda semántica de las personas detectadas utilizando descripciones en lenguaje natural.
-=======
-# Sistema de Rastreo y Búsqueda Semántica de Personas
+# Findr - Sistema de Rastreo y Búsqueda Semántica de Personas
 
 Este proyecto combina la potencia de **YOLO** para la detección y rastreo de personas en tiempo real, junto con **OpenAI CLIP** y **FAISS** para permitir la búsqueda semántica de las personas detectadas utilizando descripciones en lenguaje natural.
 
@@ -16,9 +12,9 @@ Este proyecto combina la potencia de **YOLO** para la detección y rastreo de pe
 ## 🛠️ Tecnologías Utilizadas
 
 *   **Python 3.x**
-*   **Ultralytics YOLO**: Para detección de objetos.
+*   **Ultralytics YOLO**: Para detección de objetos (v12).
 *   **Sentence-Transformers (CLIP)**: Modelo `clip-ViT-B-16` para generar embeddings de imágenes y texto.
-*   **FAISS**: Librería de Facebook para búsqueda de similitud eficiente y agrupación de vectores densos.
+*   **FAISS**: Librería de Facebook para búsqueda de similitud eficiente.
 *   **Streamlit**: Para la interfaz de usuario web.
 *   **Torch & Torchvision**: Framework de Deep Learning.
 
@@ -51,7 +47,7 @@ Ejecuta el script principal para iniciar el rastreo de personas:
 ```bash
 python main.py
 ```
-Este script iniciará la cámara (índice 1 por defecto) y comenzará a detectar personas, guardando las capturas en la carpeta configurada.
+Este script iniciará la cámara (índice 1 por defecto) y comenzará a detectar personas, guardando las capturas en la carpeta `imagenes/personas_detectadas`.
 
 ### 2. Búsqueda de Personas
 Inicia la interfaz web para buscar en la base de datos de personas detectadas:
@@ -61,4 +57,3 @@ streamlit run buscar32.py
 Desde la interfaz podrás:
 *   **Actualizar Base de Datos**: Procesar nuevas imágenes detectadas para añadirlas al índice.
 *   **Buscar**: Ingresa una descripción (ej. "hombre con gafas") para encontrar coincidencias.
->>>>>>> b4caa66 (Initial commit: Project setup with YOLO, CLIP, and FAISS)

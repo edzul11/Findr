@@ -4,6 +4,15 @@ venv/
 env/
 .env
 
+# Modelos y Pesos
+*.pt
+*.pth
+
+# Datos del Sistema (Detecciones y Base de Datos)
+imagenes/personas_detectadas/*
+faiss_data/
+metadata/
+
 # Byte-compiled / optimizados / DLLs
 __pycache__/
 *.py[cod]
@@ -22,3 +31,4 @@ build/
 .idea/
 .vscode/
 *.swp
+.DS_Store
